@@ -1,0 +1,118 @@
+
+.container_row {
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+}
+.title_big {
+    font-size: 64px;
+    line-height: 70px;
+}
+.title_little {
+    font-size: 35px;
+    line-height: 70px;
+}
+.text {
+    font-family: 'NotoSans Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.center {
+    align-items: center;
+}
+.relative {
+    position: relative;
+}
+@media (max-width: 1300px) {
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .title_big {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .title_little {
+        font-size: 25px;
+    }
+    .text {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 1000px) {
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .title_big {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .title_little {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 900px) {
+    .title_big {
+        font-size: 30px;
+    }
+}
+@media (max-width: 800px) {
+    .title {
+        font-size: 51px;
+        line-height: 62px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 600px) {
+    .title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .title_big {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .title_little {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 340px) {
+    .title {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .title_big {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .title_little {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

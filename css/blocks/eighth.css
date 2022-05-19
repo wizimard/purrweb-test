@@ -1,0 +1,22 @@
+.eighth-block {
+    padding-top: 308.79px;
+    padding-bottom: 258.84px;
+
+    background: url('../../assets/img/bg5.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.eighth-block .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eighth-block .container-img {
+    width: 59.65%;
+}
+@media (max-width: 900px) {
+    .eighth-block {
+        display: none;
+    }
+}

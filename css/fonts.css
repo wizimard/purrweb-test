@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../assets/fonts/Montserrat-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../assets/fonts/Montserrat-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../assets/fonts/Montserrat-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSans Bold';
+    src: url('../assets/fonts/NotoSans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSans Regular';
+    src: url('../assets/fonts/NotoSans-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../assets/fonts/Roboto-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('../assets/fonts/Avenir-Black.woff') format('woff');
+}
